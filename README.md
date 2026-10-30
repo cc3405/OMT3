@@ -6,6 +6,8 @@
 
 ## 先读这里
 
+0. **[统一制作与采购总表（主控文件）](docs/MASTER_BUILD_AND_PURCHASE_PLAN_2026-27.md)** — 当前唯一采购/制作基线；旧 BOM 冲突项以此为准。
+
 1. [项目工作进度与验收台账](docs/PROJECT_PROGRESS.md)
 2. [设计冻结前完整审查记录（2026-10-31）](docs/PREBUILD_AUDIT_2026-10-31.md)
 3. [2026–2027 全面审查与整改台账](docs/FULL_AUDIT_2026-27.md)
@@ -19,7 +21,7 @@
 
 ## 工程与软件资料
 
-- [现有采购 BOM（仍需与最新购物车选型统一）](docs/COMPONENTS_BOM.md)
+- [旧版详细采购 BOM（仅作技术参考；冲突项以统一主控文件为准）](docs/COMPONENTS_BOM.md)
 - [ESP32-S3 引脚分配与接线安全](docs/ESP32S3_PINMAP.md)
 - [ESP32-S3 固件入口和 bring-up 步骤](firmware/esp32_s3/README.md)
 - [验收与测试清单](docs/ACCEPTANCE.md)
