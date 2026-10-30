@@ -8,7 +8,9 @@
 
 ## 2. 任务链路
 
-`START → ORDER_HANDOFF → CHECK_STOCK → SELECT_SUBSTITUTE → PICK_AND_LOAD → NAVIGATE_TO_CHECKOUT → CHECKOUT_VERIFY → HUMAN_OPERATED_DETACHED_UNLOAD → DRIVE_CART_PAST_START_LINE → STOP_VEHICLE → RELEASE_CART → CART_SETTLES_IN_CART_AREA → COMPLETE_SIGNAL → DONE`
+`START → ORDER_LIST_HANDOFF → VERIFY_OPERATOR_HAS_LIST → CROSS_START_LINE → CHECK_STOCK → SELECT_SUBSTITUTE → PICK_AND_LOAD → NAVIGATE_TO_CHECKOUT → CHECKOUT_VERIFY → HUMAN_OPERATED_DETACHED_UNLOAD (if required for the division) → DRIVE_CART_PAST_START_LINE → STOP_VEHICLE → RELEASE_CART → CART_SETTLES_IN_CART_AREA → COMPLETE_SIGNAL → DONE`
+
+**官方 2026-10-01 澄清：** 计时开始时，购物清单必须交给车辆操作员，且在车辆越过 Start Line 前完成。因此清单交接是跨线的硬性前置条件，不能放到车辆出发后。2026-09-15 澄清还明确了 Shopping Area 边界及 Figure A 的 6 ft 相对位置；场地放样必须按官方图示执行，尺寸虚线不是区域边界。详见 [采购准备与设计冻结台账](PROCUREMENT_READINESS.md) 第 6 节与官方澄清页。
 
 每个状态都应有明确的进入条件、成功条件、超时保护和可复位方式。题面要求重点是车辆推进购物车越过起始线垂直平面后停车并释放；购物车最终进入购物车区域，车辆保持在起始线上或其外侧。不得把它误写成“车辆返回停车区”。
 
@@ -67,7 +69,7 @@
 
 ## 4. 采购和依赖
 
-具体型号、数量、人民币估算及物流筛选条件见 [COMPONENTS_BOM.md](COMPONENTS_BOM.md)。ESP32-S3 初版引脚见 [ESP32S3_PINMAP.md](ESP32S3_PINMAP.md)。采购预算需以结算价重算，并按比赛成本规则登记。电机堵转电流、驱动板持续电流、保险丝和线径必须匹配。
+具体型号、数量、人民币估算及物流筛选条件见 [COMPONENTS_BOM.md](COMPONENTS_BOM.md)；采购分级、设计冻结门禁和成本台账见 [PROCUREMENT_READINESS.md](PROCUREMENT_READINESS.md)。ESP32-S3 初版引脚见 [ESP32S3_PINMAP.md](ESP32S3_PINMAP.md)。采购预算需以结算价重算，并按比赛成本规则登记。电机堵转电流、驱动板持续电流、保险丝和线径必须匹配。
 
 先建立一个独立的 ESP32-S3 固件工程，最小实现顺序为：
 1. 上电安全状态与硬件急停验证；
