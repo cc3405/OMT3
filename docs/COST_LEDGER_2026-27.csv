@@ -16,3 +16,13 @@ PWR-02,power,fuse contactor wiring DC-DC,1,set,purchase,,,,,,,,,按实测电流�
 VEH-01,vehicle,load-bearing chassis steering braking rider support,1,set,team_made,,,,,,,,,必须有CAD/结构/安全审查；成本按官方规则计,工程阻塞
 STYLE-01,style,style performance materials and costume,1,set,purchase_or_reuse,,,,,,,,,所有计入项按官方规则估值,待核算
 TOOLS-01,tools,shared tools and test equipment,1,set,owned_or_purchase,,,,,,,,,依当季Program Guide确定是否计入,待核算
+NAV-01,navigation,HC-SR04 ultrasonic sensors,3,purchase,,,,,,,,,,front-left-front-right; Echo level adaptation required,待询价
+NAV-02,navigation,quadrature wheel encoders,2,set,reuse_or_purchase,,,,,,,,,,reuse motor encoders if available; A/B required,待核实
+NAV-03,electronics,logic level adapters and passive components,1,set,purchase,,,,,,,,,,3.3V GPIO protection,待询价
+ARM-01,robot_arm,shoulder high-torque metal gear servo,1,purchase,,,,,,,,,,torque/current calculation before purchase,暂缓
+ARM-02,robot_arm,elbow high-torque metal gear servo,1,purchase,,,,,,,,,,torque/current calculation before purchase,暂缓
+ARM-03,robot_arm,gripper metal gear micro servo,1,purchase,,,,,,,,,,verify clamp force and opening,待询价
+ARM-04,robot_arm,PCA9685 PWM servo driver,1,purchase,,,,,,,,,,PWM board only; not servo power supply,待询价
+ARM-05,robot_arm,dedicated servo DC-DC regulator,1,purchase,,,,,,,,,,size for combined stall current,暂缓
+ARM-06,robot_arm,lightweight arm links and universal padded V-jaw gripper,1,set,team_made,,,,,,,,,one gripper for bottle/foam ball/box; prototype first,待制作
+ARM-07,robot_arm,travel limit and grasp confirmation switches,3,set,purchase,,,,,,,,,,limits must interlock motion,待询价
