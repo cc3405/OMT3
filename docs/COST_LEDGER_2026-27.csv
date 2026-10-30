@@ -1,0 +1,18 @@
+item_id,category,item_name,quantity,source_type,purchase_date,unit_price,currency,shipping,tax,exchange_rate_to_usd,official_cost_usd,valuation_rule_reference,receipt_or_link,notes,status
+CART-01,cart,60L metal wire shopping cart,1,purchase,,,,,,,,,,待选具体SKU,待询价
+PROP-01,prop,empty 500mL PET bottle with cap,1,reuse_or_purchase,,,,,,,,,,按Program Guide估值,待核算
+PROP-02,prop,76mm soft foam ball,1,purchase,,,,,,,,,,可购买多只装但记录实际使用数量,待询价
+PROP-03,prop,red lidded substitute box,1,purchase,,,,,,,,,,与蓝色请求物品同类,待询价
+PROP-04,prop,blue out-of-stock shelf marker,1,team_made,,,,,,,,,,仅作缺货标识,待核算
+UN-01,unloader,base board,1,purchase,,,,,,,,,,尺寸测量后采购,待询价
+UN-02,unloader,guide rails,2,purchase,,,,,,,,,,按实测行程选型,待询价
+UN-03,unloader,sliding tray,1,team_made,,,,,,,,,,按实物道具放样,待制作
+UN-04,unloader,stops/feet/handle/fasteners,1,set,purchase,,,,,,,,,拆分收据逐项登记,待询价
+ELE-01,electronics,ESP32-S3 N16R8 board,1,purchase,,,,,,,,,,核对准确SKU,待核实
+MOT-01,drive,gear motors,2,purchase,,,,,,,,,,工程计算后购买,暂缓
+MOT-02,drive,motor drivers,2,purchase,,,,,,,,,,工程计算后购买,暂缓
+PWR-01,power,protected battery pack and matched charger,1,set,purchase,,,,,,,,,电流与保护核算后购买,暂缓
+PWR-02,power,fuse contactor wiring DC-DC,1,set,purchase,,,,,,,,,按实测电流和线径计算,暂缓
+VEH-01,vehicle,load-bearing chassis steering braking rider support,1,set,team_made,,,,,,,,,必须有CAD/结构/安全审查；成本按官方规则计,工程阻塞
+STYLE-01,style,style performance materials and costume,1,set,purchase_or_reuse,,,,,,,,,所有计入项按官方规则估值,待核算
+TOOLS-01,tools,shared tools and test equipment,1,set,owned_or_purchase,,,,,,,,,依当季Program Guide确定是否计入,待核算
