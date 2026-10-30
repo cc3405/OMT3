@@ -5,7 +5,7 @@
 ## Definition of done
 
 By the end of 2026-10-31, the team should have:
-1. A confirmed competition Division and a rule-applicability decision log.
+1. **Division II confirmed by the team** and a Division-II rule-applicability decision log; retain official registration/coach confirmation as evidence.
 2. A rider/vehicle requirements sheet that preserves the current project requirement: minimum rider mass 35 kg and minimum rated passenger payload 40 kg, subject to engineering validation. These figures are requirements, not proof of capacity or permission to ride.
 3. A measured vehicle/cart/prop input sheet, with missing values explicitly BLOCKED rather than guessed.
 4. A reviewed system architecture and interface concept, with load paths, steering, braking, attachment/release, and unloading sequence identified.
@@ -18,8 +18,8 @@ Do not mark an item complete merely because a concept has been discussed. Do not
 
 | Local time | Work package | Required output | Exit criterion |
 |---|---|---|---|
-| 09:00–09:30 | Kickoff and scope lock | Division, team attendance, available tools/materials, decision log | Division confirmed from team registration/coach; rider safety scope stated |
-| 09:30–10:30 | Rule and rider requirements | Division-specific rule checklist + rider requirement sheet | Rule applicability recorded; 35 kg rider / 40 kg rated payload treated as requirements pending validation |
+| 09:00–09:30 | Kickoff and scope lock | Division II confirmation, team attendance, available tools/materials, decision log | Record the team's Division II confirmation and retain registration/coach evidence; rider safety scope stated |
+| 09:30–10:30 | Rule and rider requirements | Division II rule checklist + rider requirement sheet | Record Division II unloading-device requirement; 35 kg rider / 40 kg rated payload remain requirements pending validation |
 | 10:30–12:00 | Measurement session | Vehicle, cart, and three-item prop input sheet; photos | Critical dimensions/masses measured or explicitly BLOCKED |
 | 13:00–14:30 | System/interface design | Load-path sketch, steering/brake concept, cart interface and unloading sequence | Interfaces and unresolved loads/clearances are visible and reviewable |
 | 14:30–15:30 | Mechanical safety review | Doorway envelope, stability, axle/load, brake and structure calculation-input list | No unverified capacity or safety claim; no human ride test |
@@ -33,9 +33,9 @@ Adjust times to the team's actual availability, but preserve the sequence and ex
 
 ### 1. Division and rule applicability
 
-- [ ] Confirm Division from official team registration/coach.
-- [ ] Review the 2026–2027 Problem 1 statement, Program Guide, and applicable General Clarifications.
-- [ ] Record which unloading-device requirements apply to this Division; do not transfer requirements between Divisions without checking.
+- [x] Team has stated Division II; record official registration/coach evidence in the decision log.
+- [ ] Review the 2026–2027 Problem 1 statement, Program Guide, and applicable General Clarifications for Division II.
+- [ ] Treat the team-made unloading device as a Division II requirement: it must be separate from the vehicle; document the permitted team-operated/manual operation and exact unload sequence from the official wording.
 - [ ] Confirm the shopping-list handoff sequence, including delivery to the vehicle operator before the vehicle crosses the starting line.
 - [ ] Add applicable doorway, setup/cleanup, assistance, and cost-accounting requirements to the traceability table.
 
@@ -80,7 +80,7 @@ Measurement protocol:
 - [ ] Define how the cart brakes/parks during loading and unloading.
 - [ ] Define cart return-to-designated-zone sequence after release.
 - [ ] Verify the complete assembled solution can pass the required 28 × 78 in doorway in a real orientation; record measured clearance. Nominal vehicle width alone is not proof.
-- [ ] Keep the independent unloading device physically independent where the applicable Division/problem requirement calls for it.
+- [ ] For Division II, keep the team-made unloading device physically separate from and unconnected to the vehicle; validate that it unloads all three items into the checkout area using a permitted team-operated method.
 - [ ] Produce a dimensioned interface sketch only after vehicle/cart/prop inputs are measured.
 
 ## P1 — software and validation
@@ -106,7 +106,7 @@ Measurement protocol:
 
 | Work item | Accountable owner | Supporting members | Due | Evidence / acceptance |
 |---|---|---|---|---|
-| Division and rule checklist | TBD | TBD | 2026-10-31 | Recorded rule decision log |
+| Division II rule checklist | TBD | TBD | 2026-10-31 | Division II applicability decision log + official-source cross-check |
 | Rider/vehicle safety inputs | TBD | TBD | 2026-10-31 | Measured inputs + calculation plan |
 | Vehicle/cart/prop measurements | TBD | TBD | 2026-10-31 | Measurement sheet + photos |
 | Frame/steering/brake architecture | TBD | TBD | 2026-10-31 | Annotated system sketch + open calculations |
@@ -129,7 +129,7 @@ Assign one accountable owner per row. “Everyone” is not an owner.
 
 | Deliverable | Status (DONE / BLOCKED / IN PROGRESS) | Evidence link/path | Blocker | Owner | Next action |
 |---|---|---|---|---|---|
-| Division/rule decision | BLOCKED | TBD | TBD | TBD | TBD |
+| Division II rule decision | IN PROGRESS | TBD | Verify official registration/coach evidence and current clarifications | TBD | Complete applicability cross-check |
 | Rider/vehicle safety inputs | BLOCKED | TBD | TBD | TBD | TBD |
 | Vehicle/cart/prop measurements | BLOCKED | TBD | TBD | TBD | TBD |
 | Architecture/interface sketch | IN PROGRESS | TBD | TBD | TBD | TBD |
