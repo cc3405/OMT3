@@ -8,6 +8,7 @@
 
 0. [项目工作进度与验收台账](docs/PROJECT_PROGRESS.md)
 0. [2026–2027 可行性审查与重构门槛](docs/FEASIBILITY_REVIEW.md)\n0. [2026–2027 全面审查与整改台账](docs/FULL_AUDIT_2026-27.md)
+0. [Division II 独立卸载装置概念基线（待测）](docs/DIVISION_II_UNLOADER_CONCEPT.md)
 0. **规则原文优先**：[D5 内 2026–2027 长期题 PDF](D5/1111111-main/2026-2027年度头脑奥林匹克长期题9.30.pdf)；设计冻结前须逐条核对 PDF，不以网页摘要替代。
 
 1. [整合方案与技术决策](docs/INTEGRATED_PLAN.md)
