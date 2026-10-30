@@ -10,6 +10,7 @@
 0. [2026–2027 可行性审查与重构门槛](docs/FEASIBILITY_REVIEW.md)
 0. [40 kg 乘坐者载人车辆改造方案与安全门槛](docs/40KG_RIDER_CONVERSION.md)
 0. [采购准备与设计冻结台账](docs/PROCUREMENT_READINESS.md)
+0. [总体系统设计基线（理论方案版）](docs/SYSTEM_DESIGN_BASELINE.md)
 0. [机械设计输入与测量记录（验收版）](docs/MECHANICAL_INPUTS.md)
 0. [10月31日验收摘要与现场检查表](docs/ACCEPTANCE_BRIEF_2026-10-31.md)
 0. **规则原文优先**：[D5 内 2026–2027 长期题 PDF](D5/1111111-main/2026-2027年度头脑奥林匹克长期题9.30.pdf)；设计冻结前须逐条核对 PDF，不以网页摘要替代。
