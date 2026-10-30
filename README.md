@@ -8,16 +8,17 @@
 
 1. **[完整系统设计包](docs/MASTER_DESIGN_PACKAGE_2026-27.md)** — 单一架构、功能边界、机械接口、制作路径。
 2. **[统一制作与采购总表](docs/MASTER_BUILD_AND_PURCHASE_PLAN_2026-27.md)** — 采购ID、数量、规格、优先级与验收条件。
-3. **[尺寸登记与制作草图](docs/DIMENSION_REGISTER_AND_DRAWINGS_2026-27.md)** — 到货测量表、卸载器概念图和牵引接口要求。
-4. **[独立卸载器参数化概念CAD](cad/independent_unloader_concept.scad)** — OpenSCAD布局模型；非认证制造图。
-5. **[电气与固件接口规范](docs/ELECTRICAL_AND_FIRMWARE_SPEC_2026-27.md)** — 电源域、急停、GPIO约束和任务状态机。
-6. **[综合测试计划与比赛执行手册](docs/TEST_AND_COMPETITION_RUNBOOK_2026-27.md)** — G0–G9关卡、测试记录和8分钟排练方案。
-7. **[成本登记模板](docs/COST_LEDGER_2026-27.csv)** — 逐项记录实际成本与官方估值。
-8. [项目进度台账](docs/PROJECT_PROGRESS.md)
-9. [规则追踪表](docs/RULE_TRACEABILITY_2026-27.md)
-10. [设计冻结前完整审查](docs/PREBUILD_AUDIT_2026-10-31.md)
-11. [购物车与道具选型](docs/CART_AND_PROP_SELECTION.md)
-12. [Division II 独立卸载装置概念基线](docs/DIVISION_II_UNLOADER_CONCEPT.md)
+3. **[完整故事剧本与七人详细分工](docs/STORY_AND_SEVEN_MEMBER_ROLES_2026-27.md)** — 七个角色、分幕台词、动作、交接关系和8分钟排练节奏。
+4. **[尺寸登记与制作草图](docs/DIMENSION_REGISTER_AND_DRAWINGS_2026-27.md)** — 到货测量表、卸载器概念图和牵引接口要求。
+5. **[独立卸载器参数化概念CAD](cad/independent_unloader_concept.scad)** — OpenSCAD布局模型；非认证制造图。
+6. **[电气与固件接口规范](docs/ELECTRICAL_AND_FIRMWARE_SPEC_2026-27.md)** — 电源域、急停、GPIO约束和任务状态机。
+7. **[综合测试计划与比赛执行手册](docs/TEST_AND_COMPETITION_RUNBOOK_2026-27.md)** — G0–G9关卡、测试记录和8分钟排练方案。
+8. **[成本登记模板](docs/COST_LEDGER_2026-27.csv)** — 逐项记录实际成本与官方估值。
+9. [项目进度台账](docs/PROJECT_PROGRESS.md)
+10. [规则追踪表](docs/RULE_TRACEABILITY_2026-27.md)
+11. [设计冻结前完整审查](docs/PREBUILD_AUDIT_2026-10-31.md)
+12. [购物车与道具选型](docs/CART_AND_PROP_SELECTION.md)
+13. [Division II 独立卸载装置概念基线](docs/DIVISION_II_UNLOADER_CONCEPT.md)
 
 ## 工程与软件资料
 
