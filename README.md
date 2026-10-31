@@ -10,15 +10,17 @@
 2. **[统一制作与采购总表](docs/MASTER_BUILD_AND_PURCHASE_PLAN_2026-27.md)** — 采购ID、数量、规格、优先级与验收条件。
 3. **[完整故事剧本与七人详细分工](docs/STORY_AND_SEVEN_MEMBER_ROLES_2026-27.md)** — 七幕剧情、完整台词、七人职责、交接表和8分钟排练节奏。
 4. **[尺寸登记与制作草图](docs/DIMENSION_REGISTER_AND_DRAWINGS_2026-27.md)** — 到货测量表、卸载器概念图和牵引接口要求。
-5. **[整车+拖挂篮+低成本机械臂CAD v2](cad/omt3_concept_v2.scad)** — 三执行器参数化装配源文件；尺寸待实测，不是制造图。\n6. **[CAD v2设计说明](docs/3D_CONCEPT_MODEL_V2.md)** — 降本方案、接口和安全边界。\n7. **[独立卸载器参数化概念CAD](cad/independent_unloader_concept.scad)** — OpenSCAD布局模型；非认证制造图。
+5. **[整车+拖挂篮+低成本机械臂CAD v2](cad/omt3_concept_v2.scad)** — 三执行器参数化装配源文件；尺寸待实测，不是制造图。
+6. **[CAD v2设计说明](docs/3D_CONCEPT_MODEL_V2.md)** — 降本方案、接口和安全边界。
+7. **[独立卸载器参数化概念CAD](cad/independent_unloader_concept.scad)** — OpenSCAD布局模型；非认证制造图。
 8. **[电气与固件接口规范](docs/ELECTRICAL_AND_FIRMWARE_SPEC_2026-27.md)** — 电源域、急停、GPIO约束和任务状态机。
 9. **[综合测试计划与比赛执行手册](docs/TEST_AND_COMPETITION_RUNBOOK_2026-27.md)** — G0–G9关卡、测试记录和8分钟排练方案。
 10. **[成本登记模板](docs/COST_LEDGER_2026-27.csv)** — 逐项记录实际成本与官方估值。
-9. [项目进度台账](docs/PROJECT_PROGRESS.md)
-10. [规则追踪表](docs/RULE_TRACEABILITY_2026-27.md)
-11. [设计冻结前完整审查](docs/PREBUILD_AUDIT_2026-10-31.md)
-12. [购物车与道具选型](docs/CART_AND_PROP_SELECTION.md)
-13. [Division II 独立卸载装置概念基线](docs/DIVISION_II_UNLOADER_CONCEPT.md)
+11. [项目进度台账](docs/PROJECT_PROGRESS.md)
+12. [规则追踪表](docs/RULE_TRACEABILITY_2026-27.md)
+13. [设计冻结前完整审查](docs/PREBUILD_AUDIT_2026-10-31.md)
+14. [购物车与道具选型](docs/CART_AND_PROP_SELECTION.md)
+15. [Division II 独立卸载装置概念基线](docs/DIVISION_II_UNLOADER_CONCEPT.md)
 
 ## 工程与软件资料
 
