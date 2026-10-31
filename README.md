@@ -10,7 +10,7 @@
 2. **[统一制作与采购总表](docs/MASTER_BUILD_AND_PURCHASE_PLAN_2026-27.md)** — 采购ID、数量、规格、优先级与验收条件。
 3. **[完整故事剧本与七人详细分工](docs/STORY_AND_SEVEN_MEMBER_ROLES_2026-27.md)** — 七幕剧情、完整台词、七人职责、交接表和8分钟排练节奏。
 4. **[尺寸登记与制作草图](docs/DIMENSION_REGISTER_AND_DRAWINGS_2026-27.md)** — 到货测量表、卸载器概念图和牵引接口要求。
-5. **[整车+拖挂篮+车载机械臂参数化概念CAD](cad/omt3_concept_v1.scad)** — OpenSCAD三维装配源文件；尺寸均待实测，不是制造图。\n6. **[3D概念模型说明](docs/3D_CONCEPT_MODEL_V1.md)** — 构型、模型包络、参考图差异与安全边界。\n7. **[独立卸载器参数化概念CAD](cad/independent_unloader_concept.scad)** — OpenSCAD布局模型；非认证制造图。
+5. **[整车+拖挂篮+低成本机械臂CAD v2](cad/omt3_concept_v2.scad)** — 三执行器参数化装配源文件；尺寸待实测，不是制造图。\n6. **[CAD v2设计说明](docs/3D_CONCEPT_MODEL_V2.md)** — 降本方案、接口和安全边界。\n7. **[独立卸载器参数化概念CAD](cad/independent_unloader_concept.scad)** — OpenSCAD布局模型；非认证制造图。
 8. **[电气与固件接口规范](docs/ELECTRICAL_AND_FIRMWARE_SPEC_2026-27.md)** — 电源域、急停、GPIO约束和任务状态机。
 9. **[综合测试计划与比赛执行手册](docs/TEST_AND_COMPETITION_RUNBOOK_2026-27.md)** — G0–G9关卡、测试记录和8分钟排练方案。
 10. **[成本登记模板](docs/COST_LEDGER_2026-27.csv)** — 逐项记录实际成本与官方估值。
@@ -38,7 +38,7 @@
 - 独立卸货器：队伍制作、独立落地、手动操作、与车辆无连接。
 - 主控：ESP32-S3 N16R8候选；现有固件不是完整自主任务系统。
 - 导航目标：3只超声波（前/左前/右前）+双相轮编码器，近场反应式避障与自动转弯；不含地图/视觉识别。
-- 机械臂目标：车载3执行器（肩/肘/夹爪），统一软垫夹爪抓取瓶/泡沫球/红盒；仅在车辆停稳、驱动禁用后动作。
+- 机械臂目标：车载3执行器（肩/肘/夹爪），单舵机联动软垫V形双指；不设底座/腕部旋转，ESP32-S3优先直接输出3路LEDC PWM，PCA9685为可选项。
 - Division II独立卸货器仍为独立落地、人工操作、与车辆无连接；车载机械臂不替代卸货器。
 - 预算：项目资料追踪US$165上限；完整成本未闭合，必须按当季Program Guide/Cost Form计价。
 
