@@ -22,7 +22,7 @@ NAV-03,electronics,logic level adapters and passive components,1,set,purchase,,,
 ARM-01,robot_arm,shoulder high-torque metal gear servo,1,purchase,,,,,,,,,,torque/current calculation before purchase,暂缓
 ARM-02,robot_arm,elbow high-torque metal gear servo,1,purchase,,,,,,,,,,torque/current calculation before purchase,暂缓
 ARM-03,robot_arm,gripper metal gear micro servo,1,purchase,,,,,,,,,,verify clamp force and opening,待询价
-ARM-04,robot_arm,PCA9685 PWM servo driver,1,purchase,,,,,,,,,,PWM board only; not servo power supply,待询价
+ARM-04,robot_arm,PCA9685 PWM servo driver,0/1,optional_purchase,,,,,,,,,,default omit; ESP32-S3 LEDC drives 3 servos; buy only if PWM bench test fails,暂不采购
 ARM-05,robot_arm,dedicated servo DC-DC regulator,1,purchase,,,,,,,,,,size for combined stall current,暂缓
 ARM-06,robot_arm,lightweight arm links and universal padded V-jaw gripper,1,set,team_made,,,,,,,,,one gripper for bottle/foam ball/box; prototype first,待制作
 ARM-07,robot_arm,travel limit and grasp confirmation switches,3,set,purchase,,,,,,,,,,limits must interlock motion,待询价
