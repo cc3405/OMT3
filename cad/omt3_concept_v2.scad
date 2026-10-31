@@ -29,12 +29,18 @@ module hc_sr04(){ color("#2379c8") cube([46,24,2],center=true); for(y=[-12,12]) 
 module sensors(){ if(show_sensors){ translate([sensor_front_x,0,185]) hc_sr04(); translate([sensor_side_x,sensor_y,185]) hc_sr04(); translate([sensor_side_x,-sensor_y,185]) hc_sr04(); for(s=[-1,1]) color("#4b5661") translate([sensor_side_x-15,s*sensor_y,165]) rotate([0,0,s*18]) cube([70,8,35],center=true); } }
 module servo_block(size=[42,22,40]){ color("#343b43") cube(size,center=true); color("#c0c6cc") translate([0,0,size[2]/2+3]) cylinder(d=18,h=6,center=true); }
 module arm_link(len){ color("#89949e") difference(){ hull(){ translate([0,0,0]) cylinder(d=link_w,h=link_h,center=true); translate([len,0,0]) cylinder(d=link_w,h=link_h,center=true); } translate([0,0,0]) cylinder(d=10,h=link_h+2,center=true); translate([len,0,0]) cylinder(d=10,h=link_h+2,center=true); } }
+module pushrod(p1,p2,r=4){ hull(){ translate(p1) sphere(r=r); translate(p2) sphere(r=r); } }
 module v_gripper(){
+ // One micro-servo drives both hinged, symmetric V jaws through a mechanical equalizer.
  color("#d99b43"){
   translate([jaw_length/2,jaw_open/2,0]) rotate([0,0,-18]) cube([jaw_length,jaw_thick,22],center=true);
   translate([jaw_length/2,-jaw_open/2,0]) rotate([0,0,18]) cube([jaw_length,jaw_thick,22],center=true);
   color("#454b52"){ translate([jaw_length/2,jaw_open/2-10,0]) rotate([0,0,-18]) cube([jaw_length-12,8,24],center=true); translate([jaw_length/2,-jaw_open/2+10,0]) rotate([0,0,18]) cube([jaw_length-12,8,24],center=true); }
-  cylinder(d=34,h=28,center=true);
+  for(y=[-jaw_open/2,jaw_open/2]) translate([12,y,0]) color("#c0c6cc") cylinder(d=12,h=30,center=true);
+  translate([-28,0,0]) servo_block([42,30,28]);
+  color("#c0c6cc") translate([-5,0,18]) cylinder(d=26,h=5,center=true);
+  pushrod([0,0,18],[20,jaw_open/2-8,0],4);
+  pushrod([0,0,18],[20,-jaw_open/2+8,0],4);
  }
 }
 module arm(){
