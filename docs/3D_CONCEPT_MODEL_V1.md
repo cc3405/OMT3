@@ -1,4 +1,4 @@
-# OMT3 参数化3D概念模型 v1
+⚠️ **本文件已被 v2 取代。** 当前有效模型请见 [CAD v2说明](3D_CONCEPT_MODEL_V2.md) 和 `cad/omt3_concept_v2.scad`。v1仅保留历史记录，不作为采购或制作依据。\n\n# OMT3 参数化3D概念模型 v1
 
 ## 文件
 - `cad/omt3_concept_v1.scad`：OpenSCAD参数化源文件，可继续修改。
